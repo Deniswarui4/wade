@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Contact us" description="We are happy to help you. Contact us today for a free web design quote. (Call Now)">
+  <section class="p-4 sm:p-16 lg:p-24">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl sm:text-5xl lg:text-6xl tracking-tight font-bold capitalize">Talk to us</h2>
+
+      <div class="max-w-xl mx-auto text-center">
+        <p class="mt-6 text-sm font-medium text-gray-500">Wade is the #1 rated Web Design Company in Nairobi Kenya. We’re made up of a team of web designers, graphic designers, SEO consultants and online marketing experts.</p>
+      </div>
+
+      <div class="mt-6 sm:items-center sm:justify-center sm:flex">
+        <a href="https://api.whatsapp.com/send?phone=254722593572&text=Hello!%20Wade%20-%20Best%20web%20design%20company%20in%20Nairobi%20Kenya?%20I'd%20like%20to%20get%20a%20free%20quotation%20on%20a%20new%20website%20project.%20Please%20get%20back%20for%20more%20info." class="block px-12 py-3 font-medium text-black bg-yellow-200 rounded-lg shadow-xl hover:bg-yellow-300">Get Quote</a>
+
+        <a href="tel:+254722593572" class="block px-12 py-3 mt-4 font-medium text-black rounded-lg hover:underline sm:mt-0">+254 722 593572</a>
+      </div>
+    </div>
+  </section>
+
+<section class="bg-gray-100">
+  <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+      <div class="lg:py-12 lg:col-span-2">
+        <p class="max-w-xl text-lg">
+          Have a Project in Mind? Say Hi!
+        </p>
+
+        <div class="mt-8">
+          <a href="tel:+254722593572" class="text-2xl font-bold">+254 722 593572</a>
+
+          <address class="mt-2 not-italic">CBD Nairobi, Kenya</address>
+        </div>
+      </div>
+
+      <div class="p-8 bg-white rounded-lg shadow-lg lg:p-12 lg:col-span-3">
+        <form action="" class="space-y-4">
+          <div>
+            <label class="sr-only" for="name">Name</label>
+            <input class="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Name" type="text" id="name" />
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <div>
+              <label class="sr-only" for="email">Email</label>
+              <input
+                class="w-full p-3 text-sm border-gray-200 rounded-lg"
+                placeholder="Email address"
+                type="email"
+                id="email"
+              />
+            </div>
+
+            <div>
+              <label class="sr-only" for="phone">Phone</label>
+              <input
+                class="w-full p-3 text-sm border-gray-200 rounded-lg"
+                placeholder="Phone Number"
+                type="tel"
+                id="phone"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label class="sr-only" for="message">Message</label>
+            <textarea
+              class="w-full p-3 text-sm border-gray-200 rounded-lg"
+              placeholder="Message"
+              rows="8"
+              id="message"
+            ></textarea>
+          </div>
+
+          <div class="mt-4">
+            <button
+              type="submit"
+              class="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto"
+            >
+              <span class="font-medium"> Send Enquiry </span>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 ml-3"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</BaseLayout>
